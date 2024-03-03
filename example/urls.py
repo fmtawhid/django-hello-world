@@ -5,5 +5,8 @@ from example.views import index
 
 
 urlpatterns = [
-    path('', index),
+    path('', index, name='home'),
+    path('contact', index, name='contact'),
+    path('', index, name='home'),
+    path('', index, name='home'),
 ]
